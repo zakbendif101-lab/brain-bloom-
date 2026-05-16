@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Brain Bloom Education</title>
+<meta name="description" content="Book a free consultation, ask a question, or get in touch about 11+ preparation, KS2 tuition, the Scholars Programme or holiday camps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="announcement-bar">
+  🎒 May Half Term Camp · 25–29 May ·
+  <span class="code-pill">EARLYBIRD</span>
+  for 10% off · ends 18th May
+  <a href="camp.html">Book now →</a>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">Brain Bloom<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="camp.html">Holiday Camp</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="https://calendly.com/zakbendif101/30min" target="_blank" class="btn btn-primary" style="padding: 0.7rem 1.4rem;">Book a Call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Get in Touch</span>
+    <h1>Let's start a conversation.</h1>
+    <p class="lead mt-2">The fastest way to find out if Brain Bloom is right for your child is a free 30-minute consultation. Book directly below — or send us a message and we'll come back to you.</p>
+  </div>
+</section>
+
+<!-- PRIMARY CTA — CALENDLY -->
+<section class="tight">
+  <div class="container">
+    <div class="cta-banner">
+      <span class="eyebrow gold">⭐ Most parents start here</span>
+      <h2>Book your free 30-minute consultation.</h2>
+      <p>Pick a time that suits you. We'll send a calendar invite and Google Meet link straight to your inbox. No sales pitch — just a real conversation about your child.</p>
+      <a href="https://calendly.com/zakbendif101/30min" target="_blank" class="btn btn-primary" style="font-size: 1.0625rem; padding: 1.1rem 2.2rem;">Open the Booking Calendar</a>
+    </div>
+  </div>
+</section>
+
+<!-- SECONDARY CONTACT METHODS -->
+<section class="section-cream">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Other ways to reach us</span>
+      <h2>Prefer not to book a call?</h2>
+      <p class="lead mt-2">No problem. Pick whichever feels easiest — we'll come back to you within one working day.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-icon coral">📞</div>
+        <h3>Call us</h3>
+        <p style="margin-bottom: 1.5rem;">Sometimes a quick chat is faster than a calendar booking. Call us directly:</p>
+        <a href="tel:07939890857" class="btn btn-secondary" style="width: 100%;">07939 890857</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">✉️</div>
+        <h3>Email us</h3>
+        <p style="margin-bottom: 1.5rem;">Drop us a line with your question. We respond personally — no auto-replies.</p>
+        <a href="mailto:info@brain-bloom.co.uk" class="btn btn-secondary" style="width: 100%;">info@brain-bloom.co.uk</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon gold">💬</div>
+        <h3>Send a message</h3>
+        <p style="margin-bottom: 1.5rem;">Use the form below and we'll get back to you within one working day.</p>
+        <a href="#message-form" class="btn btn-secondary" style="width: 100%;">Use the Form Below</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MESSAGE FORM -->
+<section id="message-form">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <span class="eyebrow">Send a message</span>
+        <h2>Have a question first?</h2>
+        <p style="margin-top: 1rem;">Drop us a line below and we'll get back to you within one working day. No automated replies, no chase-up calls — just a real response from the Brain Bloom team.</p>
+
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="margin-top: 2rem;">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-group">
+            <label for="programme">Which programme are you interested in?</label>
+            <select id="programme" name="programme">
+              <option value="">Please choose...</option>
+              <option value="11+">11+ Preparation</option>
+              <option value="KS2">KS2 Tuition</option>
+              <option value="Scholars">Scholars Programme (home ed)</option>
+              <option value="Camp">Holiday Camp</option>
+              <option value="Unsure">Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+      <div>
+        <div class="contact-info-block">
+          <h4>Phone</h4>
+          <p><a href="tel:07939890857">07939 890857</a></p>
+        </div>
+
+        <div class="contact-info-block">
+          <h4>Email</h4>
+          <p><a href="mailto:info@brain-bloom.co.uk">info@brain-bloom.co.uk</a></p>
+        </div>
+
+        <div class="contact-info-block">
+          <h4>Where We Teach</h4>
+          <p>South London &amp; online<br>Camps held at Harris Academy Purley</p>
+        </div>
+
+        <div class="contact-info-block">
+          <h4>Response Time</h4>
+          <p>One working day, every time</p>
+        </div>
+
+        <div class="contact-info-block" style="background: var(--navy); color: var(--white); border: none;">
+          <h4 style="color: var(--gold);">Quickest route</h4>
+          <p style="color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 400; line-height: 1.6;">If you're ready to move, the consultation booking gets you a held slot in the calendar straight away. Most parents take that route.</p>
+          <a href="https://calendly.com/zakbendif101/30min" target="_blank" class="btn btn-gold" style="margin-top: 1rem; width: 100%;">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Brain Bloom<span>.</span></div>
+        <p class="footer-tagline">Specialist 11+, KS2 and home education tuition. Building confident, capable learners across South London and online.</p>
+      </div>
+      <div>
+        <h4>Programmes</h4>
+        <ul>
+          <li><a href="services.html#eleven-plus">11+ Preparation</a></li>
+          <li><a href="services.html#ks2">KS2 Tuition</a></li>
+          <li><a href="services.html#scholars">Scholars Programme</a></li>
+          <li><a href="camp.html">Holiday Camps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://calendly.com/zakbendif101/30min" target="_blank">Book a Call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="tel:07939890857">07939 890857</a></li>
+          <li><a href="mailto:info@brain-bloom.co.uk">info@brain-bloom.co.uk</a></li>
+          <li><a href="https://calendly.com/zakbendif101/30min" target="_blank">Schedule a Consultation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Brain Bloom Education Ltd. All rights reserved.</div>
+      <div>Registered in England &amp; Wales</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
